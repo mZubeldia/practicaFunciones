@@ -14,3 +14,18 @@ function IVACalculator (money) {
 }
 
 var IVA = 0.21;
+
+
+
+//Golpe impacto
+function tirarDados(min, max) {
+var dados = Math.round(Math.random() * (max - min)) + 1;
+
+if (dados >= 6) {
+    return true; 
+    }
+    else {return false;
+    }
+}
+
+tirarDados(1, 10);
