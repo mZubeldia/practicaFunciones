@@ -8,12 +8,13 @@ tirarDados(1, 10);
 
 
 //Calculadora IVA
-function IVACalculator (money) {
-    var IVACalculator = money * IVA; 
-    return alert("Tienes que pagar " + IVACalculator + " euros de IVA.")
+function ivaCalculator (money) {
+    var ivaCalculator = money * iva; 
+    return alert("Tienes que pagar " + ivaCalculator + " euros de iva.")
 }
 
-var IVA = 0.21;
+var iva = 0.21;
+ivaCalculator (2500);
 
 
 
