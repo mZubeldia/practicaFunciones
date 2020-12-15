@@ -1,3 +1,29 @@
+//Love Score Calculator
+
+prompt("What is your name?");
+prompt("What is their name?");
+
+function loveScore() {
+    var loveScore = Math.floor(Math.random() * 100 + 1);
+
+    if (loveScore >= 70){
+        return alert("Your love score is " + loveScore + ". You'll love each other like Kanye loves Kanye.");
+    } 
+
+    if (loveScore < 70 && loveScore <= 30){
+        return alert("Your love score is " + loveScore + ".");
+    }
+    
+    if (loveScore < 30){
+        return alert("Your love score is" + loveScore + ". You better find another candidate.");
+    }
+
+} 
+loveScore ();
+
+
+
+
 //IBM CALCULATOR
 
 function bmiCalculator (weight, height) {
