@@ -46,3 +46,16 @@ function bmiCalculator (weight, height) {
 }
 
 var interpretation = bmiCalculator(90, 1.80);
+
+
+// Entrada a fiesta
+
+var guestName = prompt("What is your name?");
+var guestList = ["Angela", "Jack", "Pam", "James", "Lara", "Jason"];
+
+if (guestList.includes(guestName)) {
+    alert("Welcome, " + guestName + ". You're on the list!")
+} else {
+    alert("Sorry, see you next time.")
+}
+
